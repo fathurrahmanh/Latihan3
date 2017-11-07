@@ -28,4 +28,7 @@ int main (){
 			L = 0.5*a*t;
 			cout << "Luas Persegi panjang :"<< L<<endl;
 		}
+		else{
+			cout<<"maaf, Anda salah memilih"<<endl;
+		}
 }
