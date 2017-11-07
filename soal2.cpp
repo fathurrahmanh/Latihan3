@@ -7,7 +7,7 @@ int main (){
 	char bidang;
 	double p,l,a,t,L;
 	
-	cout << "pilih bidang";
+	cout << "pilih bidang :";
 	cin >> bidang;
 	
 		if (bidang == 'P' || bidang == 'p') {
