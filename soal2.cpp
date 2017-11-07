@@ -9,4 +9,14 @@ int main (){
 	
 	cout << "pilih bidang";
 	cin >> bidang;
+	
+		if (bidang == 'P' || bidang == 'p') {
+			cout << "Menghitung Luas persegi panjang \n";
+			cout << "Masukkan Panjangnya :";
+			cin >> p;
+			cout << "Masukkan Lebarnya :";
+			cin >> l;
+			L = p*l;
+			cout << "Luas Persegi Panjang : "<< L<<endl;
+		}
 }
