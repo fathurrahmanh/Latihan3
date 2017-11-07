@@ -19,4 +19,13 @@ int main (){
 			L = p*l;
 			cout << "Luas Persegi Panjang : "<< L<<endl;
 		}
+		else if(bidang == 'S' || bidang == 's') {
+			cout << "Menghitung luas segitiga \n";
+			cout << "Masukkan alasnya :";
+			cin >> a;
+			cout << "Masukkan tingginya : ";
+			cin >> t;
+			L = 0.5*a*t;
+			cout << "Luas Persegi panjang :"<< L<<endl;
+		}
 }
